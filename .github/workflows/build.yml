@@ -6,8 +6,6 @@ jobs :
      steps:
          -run: node --version
          -run: npm --version
-     steps:
          -uses: actions/checkout@v3
-     steps:    
          -run: npm install
          -run: node index.js
